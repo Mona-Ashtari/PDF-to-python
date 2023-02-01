@@ -56,7 +56,7 @@ def PDF_reader(data_path, PDF_name):
 
 
 def main():
-    data_path = r''
+    data_path = r'' # Add the path to your data here
     PDF_names = [pdfname for pdfname in os.listdir(data_path) if pdfname.endswith('.pdf')]
 
     for PDF_name in PDF_names:
